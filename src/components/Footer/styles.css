@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: auto; /* Pushes footer to the bottom of the page */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.footer-navigation {
+  flex: 2;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 20px;
+  cursor: pointer;
+}

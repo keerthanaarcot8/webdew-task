@@ -1,0 +1,40 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* Set a high z-index value to ensure the header appears above other content */
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .logo-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .top-navigation {
+    flex: 2;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+  }
